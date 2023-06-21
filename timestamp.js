@@ -2,7 +2,7 @@ function timestamp(tag) {
     let string = message.content.split(`${tag} `)[1]?.toLowerCase() ?? '';
     let [command] = string.split(' ');
 
-    if (!command) return `## Usage\n\`-t ${tag} <command>\`\n\n## Available Commands\n- **\`now\` -** Get current timestamp.\n- **\`create\` -** Create a timestamp.\n### Contact & Support`;
+    if (!command) return `## Usage\n\`-t ${tag} <command>\`\n\n## Available Commands\n- **\`now\` -** Get current timestamp.\n- **\`create\` -** Create a timestamp. ;
 
     let response = '';
 
